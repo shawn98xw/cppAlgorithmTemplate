@@ -3,7 +3,7 @@
 using namespace std;
 namespace Algorithm{
     // 差分数组
-    // LeetCode 370.
+    // LeetCode 370. 1109. 1094.
     class DiffArray {
     private:
         vector<int> diff;
