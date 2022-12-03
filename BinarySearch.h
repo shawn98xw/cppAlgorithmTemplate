@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 namespace Algorithm{
-
+    //二分查找
     // Binary Search Algorithm
     class BinarySearch{
     public:
