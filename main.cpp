@@ -2,14 +2,15 @@
 #include "BinarySearch.h"
 #include "PrefixSum.h"
 #include "DiffArray.h"
+#include "QuickSort.h"
 using namespace Algorithm;
 
 int main(){
-    vector<vector<int>> vec = {{1,3,2}, {2,4,3}, {0,2,-2}};
-    DiffArray diffArray;
-    auto res = diffArray.getModifiedArray(5, vec);
-    for(auto val : res){
+    vector<int> v = {5,3452,6,234,54,45,3,5,42,5,6,7,6,8,9,0,7,6,5,4,324,23};
+    QuickSort(v, 0, v.size() - 1);
+    for(auto& val : v){
         cout << val << " ";
     }
+    cout << endl;
     return 0;
 }
