@@ -6,11 +6,8 @@
 using namespace Algorithm;
 
 int main(){
-    vector<int> v = {5,3452,6,234,54,45,3,5,42,5,6,7,6,8,9,0,7,6,5,4,324,23};
-    QuickSort(v, 0, v.size() - 1);
-    for(auto& val : v){
-        cout << val << " ";
-    }
-    cout << endl;
+    vector<int> vec = {1, 2, 3, 4, 5, 5, 5, 6, 7, 8};
+    auto pos = BinarySearch::Search(vec, 5);
+    cout << "pos = " << pos << endl;
     return 0;
 }
